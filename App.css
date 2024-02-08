@@ -1,0 +1,25 @@
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.noButton {
+  background-color: green; /* Sets the button's background color to green */
+  color: white; /* Sets the text color to white for better contrast */
+  border: none; /* Removes the border */
+  padding: 10px 20px; /* Adds some padding inside the button for better dimensions */
+  font-size: 16px; /* Sets the font size */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+  border-radius: 5px; /* Optional: adds rounded corners to the button */
+}
+.yesButton {
+  background-color: red; /* Sets the button's background color to green */
+  color: white; /* Sets the text color to white for better contrast */
+  border: none; /* Removes the border */
+  padding: 10px 20px; /* Adds some padding inside the button for better dimensions */
+  font-size: 16px; /* Sets the font size */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+  border-radius: 5px;
+}
